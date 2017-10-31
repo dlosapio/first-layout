@@ -1,5 +1,9 @@
+/*fonts*/
+
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic);
+
+/*Reset*/
 
 * {
 	box-sizing: border-box;
@@ -7,16 +11,10 @@
 	padding: 0;
 }
 
-.outer-container {
-	background-color: #jjj;
-	margin: 0 auto;
-	width: 80%;
-}
-
 /*Navigation*/
 
-.main-nav {
-	margin: 2.5em 0;
+header {
+	margin: 2rem 0;
 }
 
 #nav-items {
@@ -25,17 +23,17 @@
 	align-content: flex-start;
 	align-items: flex-start;
   list-style-type: none;
-	margin-top: 1em;
+	margin-top: 1rem;
 }
 
-.nav-inner {
+.header-inner {
 	display: flex;
 	justify-content: space-between;
 }
 
 .main-logo {
-	width: 6em;
-	height: 6em;
+	width: 6rem;
+	height: 6rem;
 }
 
 li a {
@@ -43,9 +41,9 @@ li a {
 	color: #000;
 	background-color: #f99d22;
 	text-decoration: none;
-	border-radius: .4em;
-	margin-left: 1em;
-	padding: .5em .75em;
+	border-radius: .4rem;
+	margin-left: 1rem;
+	padding: .5rem .75rem;
 }
 
 li a:hover {
@@ -53,21 +51,31 @@ li a:hover {
 	background-color: #37b2c2;
 }
 
-li a:active {
-	color: #e45026;
+.active a {
+	color: #fff;
+	background-color: #e45026;
 }
 
 /*End Navigation*/
 
-.outer-header {
+/*Main Content*/
+
+.outer-container {
+	background-color: #jjj;
+	margin: 0 auto;
+	width: 88%;
+}
+
+.hero {
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	background-image: url("../img/header-bg.svg"); 
-	background-size: 6.5em;
+	background-size: 6.5rem;
 	background-color: gray;
-	padding: 5em 0;
-	margin-bottom: 2em;
+	border-radius: .2rem;
+	padding: 5rem 0;
+	margin-bottom: 2rem;
 }
 
 main {
@@ -83,32 +91,34 @@ main {
 }
 
 .main-content {
-	padding: 1em;
+	padding: 1rem;
 	width: 33%;
 }
 
 .author {
-	font: italic 1em 'Josefin Sans', sans-serif; 
+	font: italic 1rem 'Josefin Sans', sans-serif; 
 }
 
 .article-logo {
 	display: flex;
 	justify-content: center;
-	max-height: 5em;
-	margin-bottom: 2.5em;
+	max-height: 5rem;
+	margin-bottom: 2.5rem;
 }
 
 h1 {
 	color: #000;
-	font: 4.5em 'Josefin Slab', serif;
+	font: 4.5rem 'Josefin Slab', serif;
 	}
 
 h2 {
-	font: 2.25em 'Josefin Slab', serif;
-	padding-bottom: 1em;
+	font: 2.25rem 'Josefin Slab', serif;
+	padding-bottom: 1rem;
 }
 
 p {
-	font: 1em 'Josefin Sans', sans-serif;
-	line-height: 1.5em;
+	font: 1rem 'Josefin Sans', sans-serif;
+	line-height: 1.5rem;
 }
+
+/*End Main Content*/
