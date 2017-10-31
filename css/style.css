@@ -53,13 +53,18 @@ li a:hover {
 	background-color: #37b2c2;
 }
 
+li a:active {
+	color: #e45026;
+}
+
 /*End Navigation*/
 
 .outer-header {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	background-image: url("img/header-bg.png"); 
+	background-image: url("../img/header-bg.svg"); 
+	background-size: 6.5em;
 	background-color: gray;
 	padding: 5em 0;
 	margin-bottom: 2em;
