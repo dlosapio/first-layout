@@ -5,42 +5,54 @@
 		<meta name="description" content="This is layout exercise number one.">
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div id="main-container"
-			<div class="main-nav">
-				<a href="http://betamore.github.io/"><img src="img/webplatform-logo.svg" alt="webplatform logo"></a> 
-				<nav>
-					<ul id="main-nav">
-						<li><a href="products.html">Products</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+		<div class ="outer-container">
+				<nav class="main-nav">
+					<div class="nav-inner">
+						<div><a href="http://betamore.github.io/"><img class="main-logo" src="img/webplatform-logo.svg" alt="webplatform logo"></a> 
+						</div>
+						<div>
+							<ul id="nav-items">
+							<li class="nav"><a href="products.html">Products</a></li>
+							<li class="nav"><a href="services.html">Services</a></li>
+							<li class="nav"><a href="about.html">About</a></li>
+							<li class="nav"><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
 				</nav>
-			</div>
-			<header>
+			<header class="outer-header">
 				<h1>Hello World!</h1>
 			</header>
 			<main>
 				<section class="main-content">
-					<img src="">
-					<h2>HTML</h2>
+					<div class="article-head">
+						<img class="article-logo" src="img/html-5.svg" alt="html">
+						<h2>HTML</h2>
+					</div>
 					<p>HTML is the unifying language of the World Wide Web. Using just the simple tags it contains, the human race has created an astoundingly diverse network of hyperlinked documents, from Amazon, eBay, and Wikipedia, to personal blogs and websites dedicated to cats that look like Hitler.</p>
 					<p><span class="author">-- Jeremy Keith</span></p>
 				</section>
 				<section class="main-content">
-					<img src="">
-					<h2>CSS</h2>
+					<div class="article-head">
+						<img class="article-logo" src="img/css-3.svg" alt="css">
+						<h2>CSS</h2>
+					</div>
 					<p>CSS isn’t easy. Combining a very permissive (somewhat broken) syntax with constantly evolving features and rendering inconsistencies makes CSS not that easy at all. Yes, the syntax is simple, but a simple syntax doesn’t make an easy language.</p>
 					<p><span class="author">-- Hugo Giraudel</span></p>
 				</section><section class="main-content">
-					<img src="">
-					<h2>JavaScript</h2>
+					<div class="article-head">
+						<img class="article-logo" src="img/javascript.svg" alt="javascript">
+						<h2>JavaScript</h2>
+					</div>
 					<p>I am not content, nor should you be, at stopping once something just works, and not really knowing why. I gently challenge you to journey down that bumpy "road less traveled" and embrace all that JavaScript is and can do. With that knowledge, no technique, no framework, no popular buzzword acronym of the week, will be beyond your understanding.</p>
 					<p><span class="author">-- Kyle Simpson</span></p>
 				</section>
 			</main>
+		</div>
 		</div>
 	</body>
 </html>
