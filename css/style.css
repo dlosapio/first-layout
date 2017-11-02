@@ -2,6 +2,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:400,800);
 
 /*Reset*/
 
@@ -140,12 +141,34 @@ p {
 		width: 100%;
 	}
 
+	li {
+		width: 100%;
+	}
+
 	li a {
 		display: block;
+		background-color: #b2cfff;
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 1.5rem;
 		border-radius: 0rem;
-		margin: 0 .1rem 0 0;
-		width: 100%;
-		padding: .5rem 0;
+		border-bottom: 1px solid white;
+		padding: 1rem 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	li a:hover {
+		transition: .5s ease;
+		background-color: #5e9bff;
+	}
+
+	.active a {
+		background-color:#04c97a; 
+	}
+
+	.active a:hover{
+		transition: .5s ease;
+		background-color: #019157;
 	}
 
 	.outer-container {
@@ -159,13 +182,43 @@ p {
 
 	.main-content {
 		width: 100%;
+		border-bottom: 2px solid #4b4e51;
 	}
 
 	.hero {
-		padding: 2rem 0;
+		background-image: none;
+		background-color: #4b4e51;
+		padding: 3rem 0;
+		margin: 0;
+		border-radius: 0;
+	}
+
+	.main-logo {
+		margin: .5rem 0;
+		width: 6rem;
+		height: 6rem;
 	}
 
 	h1 {
-	font: 3rem 'Josefin Slab', serif;
+	font: 4rem 'Nunito Sans', sans-serif;
+	font-weight: 800;
+	color: #fff;
 	}
+
+	h2 {
+		font-family: 'Nunito Sans', sans-serif;
+	}
+
+	p {
+		font-family: 'Nunito Sans', sans-serif;
+	}
+
+	.article-logo {
+		margin-bottom: 1rem;
+	}
+
+	.author {
+	font: italic 1rem 'Nunito Sans', sans-serif; 
+}
+
 }
