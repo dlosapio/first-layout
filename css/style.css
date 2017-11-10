@@ -12,6 +12,37 @@
 	padding: 0;
 }
 
+
+/*Hidden Navigation*/
+
+#contactBar {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 1.5rem 0;
+	background-color: gray;
+}
+
+.hideContactBar{
+		margin-top: -7.5rem;
+		transition: .3s ease-out;
+}
+
+.showContactBar {
+		margin-top: 0;
+		transition: .3s ease-out;
+}
+
+#contactBar li {
+	list-style-type: none;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	padding: .25rem 0;
+	color: #000;
+}
+
+
+
 /*Navigation*/
 
 header {
