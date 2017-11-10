@@ -20,17 +20,17 @@
 	display: flex;
 	justify-content: space-around;
 	padding: 1.5rem 0;
-	background-color: gray;
+	background-color: #a8a8a8;
 }
 
 .hideContactBar{
-		margin-top: -7.5rem;
-		transition: .3s ease-out;
+	margin-top: -8rem;
+	transition: .3s ease-out;
 }
 
 .showContactBar {
-		margin-top: 0;
-		transition: .3s ease-out;
+	margin-top: 0;
+	transition: .3s ease-out;
 }
 
 #contactBar li {
@@ -38,7 +38,7 @@
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
 	padding: .25rem 0;
-	color: #000;
+	color: #fff;
 }
 
 
